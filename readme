@@ -1,0 +1,3 @@
+Quicksort algorithm (two versions handling tables of float and of long doubles respectively)
+test.c : Checking the validity of the algortithm over a table of five elements
+main.c : Generate a table of 2000 random numbers and summing its elements; the result of the sum is different whether the table is sorted or not. This is due to a discrepancy between the size of the exponents of two successive elements in an unsorted table. This problem does not show up when dealing with tables of long doubles.
